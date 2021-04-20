@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* aqui eu estilizo o header*************************************/
+a{
+    text-decoration: none;
+    color: black;
+}
+header *{
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
+div.posi{
+    margin: 0 auto;
+    width: 80%;
+    background-color: white;
+    text-align: right;
+}
+header{
+    
+    width: 100%;
+    padding: 15px 0px;
+    background-color: white;
+}
+
+header ul li{
+    display: inline-block;
+    font-size: 30px;
+    
+}
+div.logo{
+    position: absolute;
+    margin: -30px;
+    width:250px;
+    height: 100px;
+    background-image:url("../images/logo.png");
+    background-size: cover;
+    background-position:center;
+}
+/*
+header ul li:first-of-type{
+    margin-top: -10px;
+    width: 20%;
+    height: 100px;
+    background-image:url("../images/logo.png");
+    background-size: cover;
+    background-position:center;
+
+}
+*/
+header ul li:nth-of-type(1){
+
+    margin-right: 10%;
+}
+header ul li{
+    margin-bottom:-25px;
+    margin-right: 40px;
+}
+div.carrin{
+    position: absolute;
+    top: 15px;
+    right: 100px;
+    width: 50px;
+    height: 50px;
+    background-image: url("../images/carrinho.png");
+    background-size:cover;
+    background-position: center;
+}
+/* aqui eu estilizo o header*************************************/
+
+/* aqui eu estilizo ocontainer**************************************/
+section.container{
+    width: 100%;
+    height: 600px;
+    background-image: url("https://www.cashme.com.br/blog/wp-content/uploads/2020/07/tecnicas-de-vendas.jpg");
+    background-position: center;
+    background-size: cover;
+    filter: saturate(150%);
+    box-sizing: border-box;
+    padding: 100px;
+    
+}
+div.apr{
+
+    margin: 0 auto;
+    width: 90%;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+/* aqui eu estilizo ocontainer**************************************/
